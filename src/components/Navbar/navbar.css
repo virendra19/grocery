@@ -1,0 +1,40 @@
+.nav_bg_color {
+  background-color: rgba(140, 195, 47, 0.15) !important;
+}
+
+.logo_img_container {
+  width: 7rem;
+}
+.nav_container {
+  margin-left: 5rem !important;
+}
+.searchbar_container {
+}
+.search_icon_container {
+  background-color: var(--color-white) !important;
+}
+.search_bar {
+  border-left: 0 !important;
+}
+.btn_mycart_container {
+  font-family: rubikReg !important;
+  color: var(--color-black) !important;
+  width: 10rem;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  background: var(--color-white) !important;
+  border: var(--bs-border-width) solid var(--bs-border-color) !important;
+}
+.btn_mycart_container svg {
+  color: var(--color-green);
+}
+
+@media (max-width: 767px) {
+  .nav_container {
+    margin-left: 0rem !important;
+  }
+  .btn_mycart_container {
+    width: 7rem;
+  }
+}

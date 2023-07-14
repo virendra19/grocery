@@ -1,0 +1,23 @@
+.box_address_main_container {
+  position: relative;
+}
+
+.three_address_btn_container {
+  position: absolute;
+  width: 300px;
+  background: var(--color-white);
+  padding: 1rem;
+  margin: 2rem;
+}
+.three_address_btn_container {
+  font-family: rubikSemiBold;
+}
+
+@media (max-width: 767px) {
+  .three_address_btn_container {
+    width: 90%;
+
+    padding: 1rem;
+    margin: 1rem;
+  }
+}

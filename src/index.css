@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+:root {
+  --color-lightgreen: rgba(140, 195, 47, 0.15);
+  --color-green: rgba(13, 164, 135, 1);
+  --color-black: rgba(40, 45, 38, 1);
+  --color-white: rgba(255, 255, 255, 1);
+  --color-lightgrey: rgba(40, 45, 38, 0.5);
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  background: var(--color-white) !important;
+  color: var(--color-black) !important;
+  font-size: 16px !important;
+  font-family: rubikReg !important;
+  overflow-x: hidden;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none !important;
+  color: inherit !important;
+}
+
+img {
+  max-width: 100% !important;
+} /*# sourceMappingURL=index.css.map */
+
+.space_bet_components {
+  padding: 1rem 0 0 0;
+}
+
+input {
+  outline: none !important;
+}
