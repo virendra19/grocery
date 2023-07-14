@@ -1,0 +1,189 @@
+.cart_container {
+  border-radius: 0.625rem;
+  padding: 1.5rem 1rem;
+  border: 1px solid rgba(40, 45, 38, 0.15) !important;
+  background: var(--color-white) !important;
+}
+.cart_container b:first-child {
+  font-family: "rubikSemiBold";
+  font-size: 1.2rem;
+}
+.cart_type_container {
+  margin: 2rem 0 0 0;
+}
+.cart_product_name_container {
+  display: flex;
+  flex-direction: column;
+}
+.cart_product_name_container > p {
+}
+.cart_title_text_container th {
+  text-align: center;
+  font-family: rubikMed;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  color: var(--color-lightgrey);
+  line-height: 1.5rem;
+}
+.cart_title_text_container th:first-of-type {
+  text-align: left;
+}
+.cart_img_content_container {
+  gap: 10px;
+  justify-content: center;
+}
+.cart_img_container {
+  width: 6rem;
+}
+.cart_img_container img {
+  width: 100%;
+}
+
+.cart_title_subtitle_container {
+  justify-content: center;
+  gap: 0.4rem;
+}
+.cart_title_subtitle_container p {
+  margin: 0;
+  color: var(--color-lightgrey);
+  font-size: 0.8rem;
+  font-family: RubikReg;
+}
+.cart_title_subtitle_container b {
+  margin: 0;
+  color: var(--color-black);
+  font-size: 1rem;
+  font-family: RubikReg;
+}
+.cart_price_container {
+  display: flex;
+  justify-content: center;
+}
+.plus_minus_btn_container {
+  display: flex;
+  justify-content: center;
+  font-size: 1.2rem;
+  align-items: center;
+}
+.plus_minus_btn_container button,
+.delete_btn_container button {
+  background-color: var(--color-white) !important;
+  color: var(--color-black) !important;
+  font-family: rubikReg;
+  padding: 5px 10px;
+  border: 1px solid rgba(40, 45, 38, 0.15) !important;
+  transition: 0.2s all linear;
+}
+
+.plus_minus_btn_container button:first-of-type {
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+.plus_minus_btn_container button:last-of-type {
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+.plus_minus_btn_container button:hover {
+  background-color: var(--color-green) !important;
+  color: var(--color-white) !important;
+}
+
+.delete_btn_container button:hover {
+  background-color: rgb(207, 3, 3) !important;
+  color: var(--color-white) !important;
+}
+.input_special_instruction {
+  width: 100%;
+  margin: 2rem 0 0 0;
+  padding: 0.8rem !important;
+  background-color: var(--color-white) !important;
+}
+.dashed_container {
+  margin: 2rem 0 0 0;
+  border-top: 1px dashed rgba(40, 45, 38, 0.15);
+}
+.cart_userName_number {
+  margin: 0;
+  color: var(--color-lightgrey);
+  font-size: 1rem;
+  font-family: RubikReg;
+}
+.cart_userName_number {
+  margin: 1rem 0 0;
+  color: var(--color-black);
+  font-size: 1rem;
+  font-family: RubikReg;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.cart_userName_number span {
+  font-size: 1rem;
+
+  font-family: RubikSemiBold;
+  color: var(--color-black);
+}
+.billing_text_style_container {
+  color: var(--color-black);
+  font-size: 1rem;
+  font-family: RubikReg;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.billing_text_style_container p {
+  margin: 0 0 0.5rem 0;
+}
+.input_apply_container {
+  border: 1px solid rgba(40, 45, 38, 0.15);
+}
+.apply_btn {
+  border-right: 1px solid rgba(40, 45, 38, 0.15) !important;
+  color: var(--color-green) !important;
+}
+.total_container {
+  color: var(--color-black);
+  font-family: rubikSemiBold;
+}
+.checkout_btn {
+  color: var(--color-white) !important;
+  border: 0 !important;
+  width: 100%;
+  font-family: rubikMed;
+  background-color: var(--color-green) !important;
+  transition: 0.4s all ease-in-out;
+}
+.checkout_btn:hover {
+  background-color: var(--color-white) !important;
+  border: 1px solid var(--color-green) !important;
+  color: var(--color-green) !important;
+}
+
+@media (max-width: 767px) {
+  .cart_container b:first-child {
+    font-size: 1rem;
+  }
+  .cart_title_text_container th {
+    font-size: 0.8rem;
+  }
+  .cart_img_container {
+    width: 5rem;
+  }
+  .cart_title_subtitle_container {
+    gap: 0.1rem;
+  }
+  .cart_title_subtitle_container p {
+    font-size: 0.6rem;
+  }
+  .cart_title_subtitle_container b {
+    font-size: 0.8rem;
+  }
+  .plus_minus_btn_container {
+    font-size: 0.7rem;
+  }
+  .cart_price_container span {
+    font-size: 11px;
+  }
+}

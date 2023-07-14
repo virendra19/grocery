@@ -1,0 +1,148 @@
+.address_container {
+  display: flex;
+  justify-content: space-between;
+}
+.radio_two_text_container {
+  cursor: pointer;
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  width: 49%;
+  border: 1px solid rgba(40, 45, 38, 0.15);
+  padding: 1rem;
+  border-radius: 1rem;
+}
+input[type="radio"].radio_btn {
+  accent-color: var(--color-green);
+}
+.radio_two_text_container input {
+}
+.radio_btn {
+  color: var(--color-green);
+  border: 1px solid var(--color-green);
+}
+.radio_btn:checked {
+  background-color: var(--color-green) !important;
+  border: var(--color-green) !important;
+}
+.two_text_address_name_container {
+  width: 100%;
+}
+.two_text_address_name_container p {
+  font-family: rubikSemiBold;
+}
+.two_text_address_name_container p span {
+  font-family: rubikReg;
+}
+.new_address_btn {
+  border-radius: 0.625rem;
+  border: 1px solid var(--color-green) !important;
+  background: var(--color-green) !important;
+}
+
+.mtd_container {
+  width: 24% !important;
+}
+.mtd_img_container {
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  width: 100% !important;
+  text-align: center;
+}
+.mtd_img_container img {
+  width: 2rem;
+}
+.two_text_address_name_container p span {
+  font-family: rubikReg;
+  font-size: 0.8rem;
+}
+.two_text_address_name_container {
+}
+.item_img_title_subtitle_pricetag_container {
+  display: flex;
+  align-items: center;
+}
+.item_img_container {
+  width: 5rem;
+}
+.item_img_container img {
+  width: 100%;
+}
+.item_texts_container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.item_texts_container p:first-of-type {
+  font-family: rubikReg;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  color: var(--color-lightgrey);
+  margin: 0 0 0 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.item_texts_container p:first-of-type b {
+  font-family: rubikMed;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5rem;
+  color: var(--color-black);
+}
+
+@media (max-width: 767px) {
+  .address_container {
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  .radio_two_text_container {
+    width: 98%;
+  }
+  .cart_container {
+    margin: 0 0 1.5rem 0;
+  }
+  .mtd_container {
+    width: 48% !important;
+  }
+}
+
+@media (min-width: 767px) and (max-width: 992px) {
+  .radio_two_text_container {
+    width: 48%;
+  }
+  .address_container {
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  .mtd_container {
+    width: 48% !important;
+  }
+  .item_img_container {
+    width: 4rem;
+  }
+  .item_texts_container p:first-of-type {
+    font-size: 0.675rem;
+    line-height: 1rem;
+
+    margin: 0 0 0 0.5rem;
+
+    gap: 0px;
+  }
+  .item_texts_container p:first-of-type b {
+    font-size: 0.8rem;
+
+    line-height: 1rem;
+  }
+  .item_texts_container p:last-of-type {
+    font-size: 0.8rem;
+
+    line-height: 1rem;
+    margin: 0;
+  }
+  .item_texts_container {
+    gap: 1rem;
+  }
+}
